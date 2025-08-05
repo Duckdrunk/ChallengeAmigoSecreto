@@ -26,3 +26,19 @@ function mostrarAmigos() {
     });
 }
 
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        mostrarAlerta("No hay amigos para sortear.");
+        return;
+    }
+
+    const ganador = amigos[Math.floor(Math.random() * amigos.length)];
+    resultado.textContent = "El amigo seleccionado es: " + ganador;
+
+    listaAmigos.innerHTML = "";
+    amigos = [];
+}
+
+function mostrarAlerta(mensaje){
+    alert(mensaje);
+}
