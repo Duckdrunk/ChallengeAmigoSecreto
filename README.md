@@ -1,6 +1,5 @@
-<em> # Challenge Amigo Secreto</em>
+<em> Challenge Amigo Secreto</em>
 
-##Funcionalidades del Proyecto
 ## :hammer:Funcionalidades del proyecto
 - `Funcionalidad 1`: Crear un array para almacenar los nombres
 - `Funcionalidad 2`: Implementa una función para agregar amigos
